@@ -5,7 +5,7 @@
 
 #include "se_core.h"
 #include "client.c"
-#include "list_util.c"
+#include "list_util.h"
 #include "time.c"
 #include "event.c"
 #include "hash.c"

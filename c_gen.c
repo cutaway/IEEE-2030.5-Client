@@ -1,3 +1,5 @@
+#include "list_util.h"
+
 const char *c_type (char *type) {
   switch (string_index (type, xs_names, 12)+1) {
   case XS_STRING: case XS_ANY_URI: return "char *";

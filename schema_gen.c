@@ -10,7 +10,7 @@
 #include "named.h"
 #include "xml_tree.c"
 #include "schema.c"
-#include "list_util.c"
+#include "list_util.h"
 
 typedef struct _Flag {
   struct _Flag *next;
