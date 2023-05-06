@@ -6,7 +6,7 @@
 
 #include "file.c"
 #include "util.c"
-#include "list.c"
+#include "list.h"
 #include "named.h"
 #include "xml_tree.c"
 #include "schema.c"

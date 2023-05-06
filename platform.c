@@ -2,6 +2,7 @@
 // author: Mark Slicker <mark.slicker@gmail.com>
 
 #include <stdint.h>
+#include <time.h>
 
 /** @defgroup platform Platform
     @{

@@ -2,6 +2,7 @@
 
 #include <stddef.h>
 #include <stdint.h>
+#include "list.h"
 
 #define se_flags(x) (*(uint32_t *)x)
 #define se_exists(x, f) (se_flags (x) & SE_##f##_exists)

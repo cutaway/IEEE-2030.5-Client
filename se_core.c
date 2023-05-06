@@ -3,7 +3,6 @@
 
 #include "pack.c"
 #include "util.c"
-#include "list.c"
 #include "queue.c"
 #include "platform.c"
 #include "parse.c"

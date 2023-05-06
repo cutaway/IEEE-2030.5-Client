@@ -1,6 +1,8 @@
 // Copyright (c) 2018 Electric Power Research Institute, Inc.
 // author: Mark Slicker <mark.slicker@gmail.com>
 
+#include "list.h"
+
 /** @defgroup queue Queue
     @{
 */
