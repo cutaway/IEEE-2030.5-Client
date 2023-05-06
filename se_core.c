@@ -22,7 +22,7 @@
 #include "http.c"
 #include "se_connection.c"
 #include "mdns.c"
-#include "named.c"
+#include "named.h"
 #include "dnssd_client.c"
 #include "se_discover.c"
 
