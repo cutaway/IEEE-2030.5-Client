@@ -1,3 +1,4 @@
+
 #include <netinet/tcp.h>
 #include <netinet/in.h>
 #include <net/if.h>
@@ -16,6 +17,7 @@
 #include "../file.c"
 
 #ifndef HEADER_ONLY
+#include "../queue.h"
 
 // control/status
 typedef struct _PollEvent {
