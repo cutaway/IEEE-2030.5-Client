@@ -10,3 +10,12 @@ add_executable(client_test client_test.c list_util.c)
 add_executable(csip_test csip_test.c) 
 target_link_libraries(client_test se_core ssl crypto pthread dl)
 target_link_libraries(csip_test se_core ssl crypto pthread dl)
+
+# Set OPENSSL to find the built version
+include_directories( /home/cutaway/Tools/ICS-Protos/openssl_1.1.0/include )
+set(OPENSSL_ROOT_DIR /home/cutaway/Tools/ICS-Protos/openssl_1.1.0/ )
+set(OPENSSL_INCLUDE_DIR /home/cutaway/Tools/ICS-Protos/openssl_1.1.0/include )
+set(OPENSSL_LIBRARIES /home/cutaway/Tools/ICS-Protos/openssl_1.1.0/lib )
+set(OPENSSL_CRYPTO_LIBRARY /home/cutaway/Tools/ICS-Protos/openssl_1.1.0/lib )
+set(OPENSSL_USE_STATIC_LIBS TRUE)
+find_package(OpenSSL)

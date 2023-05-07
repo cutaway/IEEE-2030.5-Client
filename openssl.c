@@ -46,7 +46,6 @@ void load_cert_dir (const char *path);
 /** @} */
 
 #ifndef HEADER_ONLY
-
 #include <openssl/opensslconf.h>
 #include <openssl/ssl.h>
 #include <openssl/err.h>
